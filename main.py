@@ -1,7 +1,7 @@
-from hero import Knight
+from hero import *
+Arture = Knight('Arture', 100, 10)
+Merlin = Wizard('Merlin', 110, 9)
+print(Arture.get_name())
+print(Merlin.hp)
 
-if __name__ == "__main__":
-  print('hello')
 
-  Arture = Knight('Arture')
-  print(Arture.hp)
